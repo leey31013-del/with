@@ -129,6 +129,8 @@ h2{font-size:28px; margin:0 0 18px}
   .contactGrid{grid-template-columns:1fr}
   .nav{display:none}
 }
+}
+
 
 
 
