@@ -130,42 +130,6 @@ h2{font-size:28px; margin:0 0 18px}
   .nav{display:none}
 }
 
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>./</loc></url>
-  <url><loc>./en/</loc></url>
-  <url><loc>./kr/</loc></url>
-</urlset>
 
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>with4you — Language</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/styles.css"/></head>
-<body><div style="min-height:100vh;display:flex;align-items:center;justify-content:center">
-  <div class="container card" style="max-width:720px">
-    <h1 style="margin:0 0 6px">with4you</h1>
-    <p class="lead" style="margin:0">Choose a language / 언어를 선택하세요</p>
-    <div class="ctaRow" style="margin-top:14px">
-      <a class="btn" href="en/">English</a>
-      <a class="btn ghost" href="kr/">한국어</a>
-    </div>
-    <p class="fine" style="margin-top:14px">Investor-facing overview • Offline demo mode</p>
-  </div>
-</div></body></html>
-
-(() => {
-  const y = document.getElementById('year');
-  if (y) y.textContent = new Date().getFullYear();
-  document.addEventListener('contextmenu', (e) => { e.preventDefault(); });
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
-    a.addEventListener('click', (e) => {
-      const id = a.getAttribute('href');
-      const el = id && document.querySelector(id);
-      if (!el) return;
-      e.preventDefault();
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
-})();
 
 
